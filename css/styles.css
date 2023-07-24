@@ -1,0 +1,51 @@
+body{
+    margin: auto 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background: orange;
+    max-width: 80vh;
+}
+
+header{
+    max-width: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 1px grey;
+}
+
+.perfil{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: solid 2px grey;
+}
+nav{
+    align-items: center;
+    align-content: center;
+    display: flex;
+}
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+.iconos{
+    width: 40px;
+    height: 40px;
+    background-color: orange;
+    padding: 5px;
+
+    
+}
+
+section p{
+    max-width: 80vh;
+    align-items: center;
+    align-content: center;
+}
