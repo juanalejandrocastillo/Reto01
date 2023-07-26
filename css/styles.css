@@ -1,113 +1,99 @@
-*{
-    box-sizing: border-box;
-}
-
-
 body{
-    background: #9C27B0;
+    background: #2196F3;
     margin: 0; 
     font-family: 'Roboto', sans-serif;
-}
-
-ul{
-    list-style-type: none;
 }
 
 a{
     text-decoration: none;
 }
-
 a:visited{
-    color: inherit;
+    color:inherit;
 }
 
 header{
     margin-top: 20px;
-    max-width: 80vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
+    text-align: center;
+    color: #212121;
 }
 
 header a{
 align-items: center;
-font-size: 25px;
-text-transform: lowercase;
-font-weight: 700;
+font-size: 20px;
 padding-top: 5px;
-color: #111;
-
 }
 
 
-header .perfil{
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    box-shadow: -10px 2px 10px 0px #212121;
+header img{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    box-shadow: -10px 5px 10px -1px #212121;
+}
+
+nav{
+    text-align: center;
 }
 
 nav ul{
-    text-align: center;
-padding: 0px 10px;
+    padding: 0;
 }
 
 nav ul li {
-display: inline-block;
-padding: 5px;
+    display: inline-block;
+    padding: 5px;
 
 }
 
 .iconos {
-    width: 30px;
+    width: 45px;
+    border: solid 2px #BDBDBD;
 }
 
-section{
-    display: flex;
-    flex-direction: column;
+.texto {
     text-align: center;
-    justify-content: center;
-    padding: 0px 10px;
     color: #212121;
-}
-
-section p{
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
-section div{
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    padding-right: 25px;
+.botones{
+    text-align: center;
 }
-.boton {
+
+.botones ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.botones li{
+    margin: 10px 0; 
+}
+.botones a:link, .botones:visited {
     display: inline-block;
     font-size: 15px;
     font-weight: 700;
-    padding: 10px 30px;
-    margin: 4px;
+    padding: 15px 25px;
     color: #E1BEE7;
     border-radius: 5px;
     border: solid 2px black;
-    background: #7C4DFF;
+    background-color: #FFECB3;
     box-shadow: -5px 5px 0px 0px #111;
 }
 
-.boton:hover{
-    color:#FFFFFF;
-    box-shadow: -5px 5px 0px 5px #222;
+.botones a:hover, .botones a:active {
+    background-color: #03A9F4;
+    box-shadow: -5px 5px 0px rgba(0, 0, 0, 1);
 }
 
 
-footer ul{
+footer{
     text-align: center;
-    font-size: 15px;
-    padding-right: 50px;
-    color: #222;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 

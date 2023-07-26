@@ -33,8 +33,9 @@
 </head>
 <body>
     <header>
-        <a href=""><img src="./images/avatar.jpg" alt="foto-perfil" class="perfil"> </a>
+        <a href=""><img src="./images/avatar.jpg" alt="foto-perfil" class=""> </a>
         <a href="https://www.instagram.com/juancastillo.js/" class="juan">@JuanCastillo</a>
+    </header>
         <nav>
             <ul>    
                     <li><a href="https://www.linkedin.com/in/juan-alejandro-castillo/"><img src="./images/iconos/linkedin.png" alt="icono-linkedin" class="iconos"></a></li>
@@ -43,33 +44,32 @@
                     <li><a href="mailto:juanalejandrocastillo1989@gmail.com"><img src="./images/iconos/mail.png" alt="icono-mail" class="iconos"></a></li>
             </ul>
         </nav>
-    </header>
-    <section>
+    <main>
+    <section class="texto">
         <p>Soy Juan Castillo, vivo en Tierra del Fuego, tengo 33 años.
             Actualmente me encuentro realizando un curso intensivo de FullStack FrontEnd en <a href="https://www.codearock.com">CodeaRock.</a>
-
-
         </p>
+    </section>
+
+    <section>
         <div class="botones">
             <ul>
-                <li><a href="https://juanalejandrocastillo.github.io/Proyecto1/" class="boton">Portfolio</a></li>
-                <li><a href="https://www.youtube.com/watch?v=gEC4KsXcQAc" class="boton">Videos Github</a></li>
-                <li><a href="https://www.linkedin.com/in/juan-alejandro-castillo/" class="boton">LinkedIn</a></li>
+                <li><a href="https://juanalejandrocastillo.github.io/Proyecto1/" class="">Portfolio</a></li>
+                <li><a href="https://www.youtube.com/watch?v=gEC4KsXcQAc" class="">Videos Github</a></li>
+                <li><a href="https://www.linkedin.com/in/juan-alejandro-castillo/" class="">LinkedIn</a></li>
             </ul>
         </div>
     </section>
-    <footer>
-        <ul class="vcard">
-            <li class="fn n" title="Nombre y Apellido">
-                    <strong class="given-name">Juan Alejandro Castillo</strong><br />
-            </li>
-            <li class="adr">
-                    <span class="locality" title="Ciudad">Rio Grande</span>, 
-                    <span class="region" title="Provincia">Tierra del Fuego</span>, 
-                    <span class="postal-code" title="Codigo Postal">9420</span>, 
-                    <span class="country-name" title="País">Argentina</span>
-            </li>
-    </ul>
+</main>
+        
+    
+    <footer itemscope itemtype="https://schema.org/Person">
+        <span itemprop="name">Juan Castillo</span>
+        <span>&copy 2023</span>
+        <div itemprop="adrdess" itemscope itemtype="https://schema.org/PostalAddress">
+            <span itemprop="addressLocality">Rio Grande</span>
+            <span itemprop="addressRegion">Tierra del Fuego</span>
+        </div>       
     </footer>
 </body>
 </html>
